@@ -17,10 +17,14 @@ allow = [
   "MPL-2.0",
 ]
 confidence-threshold = 0.9
+# A broader allowlist is future-proofing, not an error: unused entries stay.
+unused-allowed-license = "allow"
 
 [bans]
 multiple-versions = "warn"
 wildcards = "deny"
+# Internal path dependencies (crates/core, crates/cli) are wildcards by nature.
+allow-wildcard-paths = true
 deny = []
 
 [sources]

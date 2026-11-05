@@ -1,0 +1,7 @@
+[
+  {
+    "id": "999001",
+    "name": "Traversal Demo",
+    "executables": [{ "name": "../../evil.exe", "os": "win32" }]
+  }
+]

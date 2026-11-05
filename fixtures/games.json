@@ -1,0 +1,45 @@
+[
+  {
+    "id": "105600",
+    "name": "Terraria",
+    "executables": [
+      { "name": "Terraria.exe", "os": "win32" },
+      { "name": "Terraria", "os": "linux" }
+    ]
+  },
+  {
+    "id": "730",
+    "name": "Counter-Strike 2",
+    "executables": [{ "name": ">cs2.exe", "os": "win32", "arguments": "-novid" }]
+  },
+  {
+    "id": "999001",
+    "name": "Traversal Demo",
+    "executables": [{ "name": "../../evil.exe", "os": "win32" }]
+  },
+  {
+    "id": "1056000",
+    "name": "Terraria (same exe name)",
+    "executables": [{ "name": "terraria.exe", "os": "win32" }]
+  },
+  {
+    "id": "999002",
+    "name": "Launcher Only",
+    "executables": [{ "name": "launcher.exe", "os": "win32", "is_launcher": true }]
+  },
+  {
+    "id": "999003",
+    "name": "Console Only",
+    "executables": [{ "name": "ps5.bin", "os": "ps4" }]
+  },
+  {
+    "id": "notnumeric",
+    "name": "Bad Id",
+    "executables": [{ "name": "bad.exe", "os": "win32" }]
+  },
+  {
+    "id": "999004",
+    "name": "Reserved Device Name",
+    "executables": [{ "name": "CON.exe", "os": "win32" }]
+  }
+]

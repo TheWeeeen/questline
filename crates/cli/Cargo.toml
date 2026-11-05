@@ -1,0 +1,27 @@
+[package]
+name = "questline-cli"
+description = "Command-line front end for questline: plan and (from M1) run a game batch"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "questline"
+path = "src/main.rs"
+
+[dependencies]
+questline-core.workspace = true
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
+
+[lints]
+workspace = true

@@ -1,0 +1,16 @@
+/target
+**/*.rs.bk
+*.pdb
+
+# editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# local state and secrets
+.env
+.env.*
+!.env.example
+*.log

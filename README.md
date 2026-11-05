@@ -1,5 +1,7 @@
 # questline
 
+[![CI](https://github.com/TheWeeeen/questline/actions/workflows/ci.yml/badge.svg)](https://github.com/TheWeeeen/questline/actions/workflows/ci.yml)
+
 Запуск игровой активности для Discord: квесты «поиграть N минут», фарм часов, значки профиля. Rust-ядро без ОС внутри, тонкий UI, тесты на всё, что можно проверить без Discord.
 
 Статус: **M0 готов** — домен, машина состояний, санитайзер путей, планировщик батчей, CLI `plan` и CI. Движок запуска процессов — M1.
@@ -50,7 +52,7 @@ cargo fmt --all --check
 cargo deny check          # advisories, лицензии, источники
 ```
 
-CI гоняет всё это на каждый push: `.github/workflows/ci.yml`.
+CI гоняет всё это на каждый push: `.github/workflows/ci.yml` — работа `fmt, clippy, test` и `advisories and licenses` (cargo-deny).
 
 ## План
 
